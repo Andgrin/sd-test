@@ -1,0 +1,1 @@
+export const GET_EMPLOEE_SUCCESS = 'emploee/GET_EMPLOEE_SUCCESS';

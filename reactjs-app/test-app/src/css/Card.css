@@ -1,0 +1,173 @@
+.one-card {
+    box-sizing: border-box;
+    border: 1px solid #d2d2d2;
+    background-color: #f6f6f6;
+  }
+  
+.one-card:hover {
+    box-shadow: 0 2px 5px 0px #999;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.avatar {
+    border: 1px solid #e2e2e2;
+    background: #fff;
+}
+
+.employee-info {
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.emploee-company,
+.emploee-address,
+.emploee-phone,
+.emploee-email {
+    color: #555;
+}
+
+.emploee-company span, 
+.emploee-address span,
+.emploee-phone span,
+.emploee-email span {
+    color: #777;
+}
+
+@media screen and (max-width: 500px) {
+    .one-card {
+        margin: 10px 0;
+        width: 48%;
+        height: auto;
+        min-height: 150px;
+        padding: 14px 14px 20px;
+        display: flex;
+        justify-content: flex-start;
+      }
+    
+    .avatar {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .employee-info {
+        margin-left: 10px; 
+    }
+    
+    .emploee-name {
+        font-size: 18px;
+        line-height: 28px;
+        padding-bottom: 14px
+    }
+    
+    .emploee-company,
+    .emploee-address,
+    .emploee-phone,
+    .emploee-email {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .one-card {
+        margin: 10px 0;
+        height: auto;
+        min-height: 150px;
+        padding: 14px 14px 20px;
+      }
+    
+    .avatar {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .employee-info {
+        margin-left: 10px; 
+    }
+    
+    .emploee-name {
+        font-size: 15px;
+        line-height: 28px;
+        padding-bottom: 14px
+    }
+    
+    .emploee-company,
+    .emploee-address,
+    .emploee-phone,
+    .emploee-email {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 991px) {
+    .one-card {
+        margin: 10px 0;
+        width: 48%;
+        height: auto;
+        min-height: 150px;
+        padding: 14px 14px 20px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .avatar {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .employee-info {
+        margin-left: 10px; 
+    }
+    
+    .emploee-name {
+        font-size: 15px;
+        line-height: 28px;
+        padding-bottom: 14px
+    }
+    
+    .emploee-company,
+    .emploee-address,
+    .emploee-phone,
+    .emploee-email {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 992px)  {
+    .one-card {
+        margin: 10px 0;
+        width: 48%;
+        height: auto;
+        min-height: 150px;
+        padding: 14px 14px 20px;
+        display: flex;
+        justify-content: flex-start;
+    }
+      
+    .avatar {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .employee-info {
+        margin-left: 10px;
+    }
+    
+    .emploee-name {
+        font-size: 18px;
+        line-height: 28px;
+        padding-bottom: 14px
+    }
+    
+    .emploee-company,
+    .emploee-address,
+    .emploee-phone,
+    .emploee-email {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

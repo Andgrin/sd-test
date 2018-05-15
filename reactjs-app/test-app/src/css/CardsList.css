@@ -1,0 +1,45 @@
+.cards-list {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 500px) {
+    .cards-list {
+        margin: 20px auto 40px;
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 767px) {
+    .cards-list {
+        margin: 20px auto 40px;
+        width: 100%;
+        padding: 0 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .cards-list {
+        margin: 40px auto 60px;
+        width: 100%;
+        padding: 0 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 992px)  {
+    .cards-list {
+        margin: 40px auto 60px;
+        width: 100%;
+        max-width: 980px;
+        padding: 0 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
