@@ -12,7 +12,7 @@ const Card = props => (
             <p className="emploee-name"> 
                 <span>{props.first_name}</span>
                 &nbsp;
-                <span>{props.first_name}</span> 
+                <span>{props.last_name}</span> 
             </p>
             <p className="emploee-company">
                 <span>Company:</span>&nbsp;

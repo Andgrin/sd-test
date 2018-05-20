@@ -1,8 +1,11 @@
 import React, {PropTypes} from 'react';
+import { connect } from 'react-redux';
+import { updateEmploee } from '../actionTypes/emploee';
 
-const fetchData = () => {
+class FetchData  {
 
-    fetch('http://localhost:3004/employees/')
+    getList() {
+        fetch('http://localhost:3004/employees/')
         .then(
         function(response) {
             if (response.status !== 200) {
@@ -19,7 +22,16 @@ const fetchData = () => {
         .catch(function(err) {
             console.log('Fetch Error :-S', err);
         });
-
+    }
 };
 
-export default fetchData;
+const mapDispatchToProps = (dispatch, data) => {
+    return {
+        updateEmployees: (data) => {
+            dispatch(updateEmploee(data))
+        }
+    }
+}
+
+// export default FetchData;
+export default connect(null, mapDispatchToProps)(FetchData);

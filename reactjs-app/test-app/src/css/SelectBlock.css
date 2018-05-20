@@ -1,0 +1,152 @@
+
+.sort-select_wraper select:hover,
+.sort-select_wraper select:active,
+.sort-select_wraper select:focus {
+    outline: none;
+    border-color: #006cff;
+}
+
+.sort-buttons_wrapper .sort-btn:hover,
+.sort-buttons_wrapper .sort-btn:active,
+.sort-buttons_wrapper .sort-btn:focus {
+    outline: none;
+    opacity: .7;
+    color: #fff;
+    background-color: #006cff;
+}
+
+
+@media screen and (max-width: 767px) {
+    .sort-wraper {
+        /* width: 500px;
+        display: flex;
+        justify-content: flex-start; */
+    }
+    .sort-select_wraper {
+        margin: 14px 20px 10px 0;
+    }
+    .sort-select_wraper label {
+        font-size: 12px;
+        color: #777;
+        font-family: sans-serif;
+    }
+    .sort-select_wraper select {
+        margin-left: 10px;
+        height: 24px;
+        width: 140px;
+        border: 1px solid #d2d2d2;
+    }
+
+    .sort-buttons_wrapper {
+        display: flex;
+        justify-content: flex-start;
+        height: 24px;
+    }
+
+    .sort-buttons_wrapper p {
+        font-size: 12px;
+        line-height: 24px;
+        color: #777;
+        font-family: sans-serif;
+        margin-right: 10px;
+    }
+    .sort-buttons_wrapper .sort-btn {
+        margin: 0 4px;
+        height: 24px;
+        width: 60px;
+        font-size: 12px;
+        background: #e2e2e2;
+        border: none;
+        border-radius: 4px; 
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .sort-wraper {
+        width: 500px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .sort-select_wraper {
+        margin-right: 20px;
+    }
+    .sort-select_wraper label {
+        font-size: 14px;
+        color: #777;
+        font-family: sans-serif;
+    }
+    .sort-select_wraper select {
+        margin-left: 10px;
+        height: 28px;
+        width: 140px;
+        border: 1px solid #d2d2d2;
+    }
+
+    .sort-buttons_wrapper {
+        display: flex;
+        justify-content: flex-start;
+        height: 28px;
+    }
+
+    .sort-buttons_wrapper p {
+        font-size: 14px;
+        line-height: 28px;
+        color: #777;
+        font-family: sans-serif;
+        margin-right: 10px;
+    }
+    .sort-buttons_wrapper .sort-btn {
+        margin: 0 4px;
+        height: 28px;
+        width: 60px;
+        font-size: 14px;
+        background: #e2e2e2;
+        border: none;
+        border-radius: 4px; 
+    }
+}
+
+@media screen and (min-width: 992px)  {
+    .sort-wraper {
+        width: 500px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .sort-select_wraper {
+        margin-right: 20px;
+    }
+    .sort-select_wraper label {
+        font-size: 14px;
+        color: #777;
+        font-family: sans-serif;
+    }
+    .sort-select_wraper select {
+        margin-left: 10px;
+        height: 28px;
+        width: 140px;
+        border: 1px solid #d2d2d2;
+    }
+
+    .sort-buttons_wrapper {
+        display: flex;
+        justify-content: flex-start;
+        height: 28px;
+    }
+
+    .sort-buttons_wrapper p {
+        font-size: 14px;
+        line-height: 28px;
+        color: #777;
+        font-family: sans-serif;
+        margin-right: 10px;
+    }
+    .sort-buttons_wrapper .sort-btn {
+        margin: 0 4px;
+        height: 28px;
+        width: 60px;
+        font-size: 14px;
+        background: #e2e2e2;
+        border: none;
+        border-radius: 4px; 
+    }
+}

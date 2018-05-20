@@ -6,3 +6,24 @@ export const updateEmploee = (employees) => {
         employees
     }
 }
+
+export const setSortSelectValue = sortKey => {
+    return {
+        type: EmploeeActionTypes.SET_SORT_SELECT,
+        sortKey
+    }
+}
+
+export const setSortDirection = sortDirection => {
+    return {
+        type: EmploeeActionTypes.SET_SORT_DIRECTION,
+        sortDirection
+    }
+}
+
+export const setFindFilterValue = findValue => {
+    return {
+        type: EmploeeActionTypes.SET_FIND_FILTER,
+        findValue
+    }
+}
