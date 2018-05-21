@@ -20,6 +20,7 @@ class SelectMenu extends Component {
 
         const optionComponents = defSelectOptions.map((option, index) => (
             <SelectOption
+                key={option.id}
                 name={option.name}
                 value={option.id}
             />

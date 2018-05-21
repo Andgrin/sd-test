@@ -55,7 +55,7 @@ class CardsList extends Component {
             })
             .map((employee, index) => (
                 <Card
-                    key={employee.id}
+                    key={'card-' + employee.id}
                     adress={employee.adress}
                     avatar={employee.avatar}
                     company={employee.company}

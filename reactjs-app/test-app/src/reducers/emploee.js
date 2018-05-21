@@ -26,14 +26,11 @@ const initialState = {
 export default function Emploee( state = initialState, action ) {
     switch(action.type) {
         case EmploeeActionTypes.GET_EMPLOEE_SUCCESS: {
-            const updateEmploee = [
-                ...state.employees, 
-                ...action.employees
-            ];
+            
 
             return {
                 ...state,
-                employees: updateEmploee
+                employees: action.employees
             }
         }
 

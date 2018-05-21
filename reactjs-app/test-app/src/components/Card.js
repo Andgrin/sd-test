@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import '../css/Card.css'
 
 const Card = props => (
-    <li className="one-card" key={props.id}>
+    <li className="one-card" >
         <div className="avatar">
             <img src={props.avatar} alt="" />
         </div>
