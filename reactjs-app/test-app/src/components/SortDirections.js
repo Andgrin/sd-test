@@ -5,18 +5,14 @@ import { setSortDirection } from '../actionTypes/emploee';
 
 class SortDirections extends Component {
     static propTypes = {
-        sortDirection: PropTypes.number.isRequired,
         sortKey: PropTypes.number.isRequired
     };
 
     render() {
-        const {
-            dispatch,
-            sortDirection,
-            sortKey
-        } = this.props;
+        const {sortKey} = this.props;
 
         if( sortKey > 0 ) {
+            console.log(sortKey);
             return (
                 <div className="sort-buttons_wrapper" >
                     <p >Select direction: </p>
@@ -36,7 +32,8 @@ class SortDirections extends Component {
                     </button>
                 </div>
             )
-        } else {
+        } 
+        else {
             return false;
         }
     }
@@ -51,7 +48,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch, data) => {
     return {
         setSortDirection: (val) => {
-            dispatch(setSortDirection(val))
+            dispatch(setSortDirection(+val))
         }
     }
 }

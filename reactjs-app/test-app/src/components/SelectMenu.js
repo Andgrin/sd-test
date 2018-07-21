@@ -13,7 +13,6 @@ class SelectMenu extends Component {
     
     render() {
         const {
-            dispatch,
             defSelectOptions,
             sortKey
         } = this.props;
@@ -31,7 +30,7 @@ class SelectMenu extends Component {
                 <label>
                     Sort by:
                     <select 
-                        value={this.props.sortKey} 
+                        value={sortKey} 
                         onChange={ (e) => this.props.setSortSelectValue(e.target.value) }
                     >
                         {optionComponents}
@@ -40,7 +39,6 @@ class SelectMenu extends Component {
             </div>
         );
     }
-    // <Dropdown options={options} onChange={this._onSelect} value={defaultOption} placeholder="Select an option" />
 }
 
 const mapStateToProps = (state) => {
